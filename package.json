@@ -1,0 +1,26 @@
+{
+  "name": "strands-agent-practice",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/agent.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/agent.js",
+    "dev": "npx tsx --watch agent.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/auto-instrumentations-node": "^0.70.0",
+    "@strands-agents/sdk": "^0.2.2",
+    "bedrock-agentcore": "^0.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.2",
+    "@types/node": "^25.2.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
